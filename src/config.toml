@@ -1,4 +1,4 @@
-# baseurl = "http://blog.honir.net/"
+baseurl = "http://blog.honir.net/"
 languageCode = "en-us"
 title = "Data Science and Engineering"
 theme = "hugo-future-imperfect"
