@@ -1,0 +1,27 @@
+version: '3'
+services:
+  hugo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: honir-blog
+    volumes:
+      - ./src/:/src
+      - ./public/:/output
+    ports:
+      - "1313:1313"
+    environment:
+      - HUGO_WATCH=true
+      - HUGO_REFRESH_TIME=3600
+      - HUGO_THEME=hugo-future-imperfect
+      # - HUGO_BASEURL=blog.honir.net
+    restart: always
+  web:
+    image: jojomi/nginx-static
+    volumes:
+      - ./public:/var/www
+    environment:
+      - VIRTUAL_HOST=blog.honir.net
+    ports:
+      - 80
+    restart: always
