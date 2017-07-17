@@ -13,9 +13,6 @@ RUN apk add --no-cache ca-certificates
 COPY ./run.sh /run.sh
 RUN chmod +x /run.sh
 
-VOLUME /src
-VOLUME /output
-
 WORKDIR /src
 CMD ["/run.sh"]
 
