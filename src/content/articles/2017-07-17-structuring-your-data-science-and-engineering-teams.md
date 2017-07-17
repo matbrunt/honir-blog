@@ -2,6 +2,12 @@
 title: "Structuring Your Data Science And Engineering Teams"
 date: 2017-07-17T10:42:38Z
 draft: false
+categories: []
+featured: ""
+featuredpath: ""
+featuredalt: ""
+linktitle: ""
+type: "post"
 ---
 Rachel Thomas wrote a really good summary piece about [structuring your Data Science and Engineering teams](http://www.fast.ai/2016/12/08/org-structure/) that I think a lot of people will recognise aspects of in their organisations. Certainly in my current role we are facing many of the challenges and opportunities of how to organise Data Science within the company. 
 

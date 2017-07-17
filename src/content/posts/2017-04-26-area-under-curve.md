@@ -2,6 +2,12 @@
 title: "Visualising Classification Performance with ROC and AUC"
 date: 2017-04-26T21:53:56Z
 draft: false
+categories: []
+featured: ""
+featuredpath: ""
+featuredalt: ""
+linktitle: ""
+type: "post"
 ---
 
 The *Receiving Operating Characteristic*, or ROC, is a way to visualise the performance of a binary classifier (0/1).
