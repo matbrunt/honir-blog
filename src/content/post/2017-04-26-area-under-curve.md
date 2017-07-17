@@ -1,15 +1,10 @@
 ---
-title: "Area Under Curve"
-date: 2017-07-16T21:53:56Z
-draft: true
+title: "Visualising Classification Performance with ROC and AUC"
+date: 2017-04-26T21:53:56Z
+draft: false
 ---
 
-# Area Under Curve
-
-http://blog.yhat.com/posts/roc-curves.html
-https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/
-
-*Receiving Operating Characteristic*, or ROC, is a way to visualise the performance of a binary classifier (0/1).
+The *Receiving Operating Characteristic*, or ROC, is a way to visualise the performance of a binary classifier (0/1).
 
 It compares the rate at which your classifier is making correct predictions (True Positives or TP) and the rate at which your classifier is making false alarms (False Positives or FP).
 
@@ -119,3 +114,7 @@ Finally, we can plot the ROC curve using Matplotlib
 ## Example Curves
 
 These examples all deal with a binary classifier (0,1). For multi-class examples have a look at the [scikit-learn documentation](http://scikit-learn.org/stable/auto_examples/plot_roc.html).
+
+Article sourced from the following links:
+[http://blog.yhat.com/posts/roc-curves.html](http://blog.yhat.com/posts/roc-curves.html)
+[https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/](https://datamize.wordpress.com/2015/01/24/how-to-plot-a-roc-curve-in-scikit-learn/)

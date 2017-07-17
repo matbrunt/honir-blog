@@ -114,3 +114,6 @@ googleAnalytics = ""
     twitter_domain  = ""
     twitter         = ""
     email           = ""
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
