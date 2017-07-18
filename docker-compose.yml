@@ -14,8 +14,7 @@ services:
       - HUGO_WATCH=true
       - HUGO_REFRESH_TIME=3600
       - HUGO_THEME=hugo-future-imperfect
-      - HUGO_BASEURL=blog.honir.net
-    restart: always
+      - HUGO_BASEURL=//blog.honir.net/
   web:
     image: jojomi/nginx-static
     volumes:
@@ -24,4 +23,3 @@ services:
       - VIRTUAL_HOST=blog.honir.net
     ports:
       - 80
-    restart: always

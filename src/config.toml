@@ -1,4 +1,4 @@
-baseurl = "http://blog.honir.net/"
+baseurl = "//blog.honir.net/"
 languageCode = "en-us"
 title = "Data Science and Engineering"
 theme = "hugo-future-imperfect"
@@ -54,9 +54,9 @@ googleAnalytics = ""
     src       = "/img/main/logo.png"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
-    circle    = true
-    imperfect = true
-    width     = "100px"
+    circle    = false
+    imperfect = false
+    width     = "98px"
     alt       = "Data Science and Engineering"
 
 # Adjust the amount of recent posts on the sidebar.
