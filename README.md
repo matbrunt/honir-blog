@@ -3,6 +3,7 @@ Source code and content for my personal blog
 
 A lot of the material here is amalgamated from various sources I have read during my studies, sometimes reworded to make it more understandable for myself.
 
+Where content has been reproduced from the Data Science Handbook I am writing on Gitbook you will see a link in the article, along with text similar to "This article has been reproduced from the book I am writing for my own benefit. As the content is updated the Gitbook will receive it first so please use that as your source.".
 
 ## Content Types
 
@@ -23,3 +24,4 @@ Where possible I have tried to credit the original author, I have no intention o
 **learning**: Notes on learning techniques or topics to look into that looked interesting.
 
 **datascience**: Data Science related material, algorithms, feature engineering, performance metrics, and all of the goodness this field covers.
+
