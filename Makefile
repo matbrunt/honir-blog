@@ -10,3 +10,11 @@ server:
 
 compile:
 	docker-compose run --rm -e HUGO_WATCH=false hugo /run.sh
+
+post:
+	# run with make post title=abc
+	docker-compose run --rm hugo hugo new -k posts posts/$(shell date +'%Y-%m-%d')-$(title).md
+
+article:
+	# run with make article title=abc
+	docker-compose run --rm hugo hugo new -k articles articles/$(shell date +'%Y-%m-%d')-$(title).md
