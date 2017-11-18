@@ -13,8 +13,10 @@ compile:
 
 post:
 	# run with make post title=abc
-	docker-compose run --rm hugo hugo new -k posts posts/$(shell date +'%Y-%m-%d')-$(title).md
+	# docker-compose run --rm hugo hugo new -k posts posts/$(shell date +'%Y-%m-%d')-$(title).md
+	docker-compose run --rm hugo hugo new -k posts posts/$(title).md
 
 article:
 	# run with make article title=abc
-	docker-compose run --rm hugo hugo new -k articles articles/$(shell date +'%Y-%m-%d')-$(title).md
+	# docker-compose run --rm hugo hugo new -k articles articles/$(shell date +'%Y-%m-%d')-$(title).md
+	docker-compose run --rm hugo hugo new -k articles articles/$(title).md
