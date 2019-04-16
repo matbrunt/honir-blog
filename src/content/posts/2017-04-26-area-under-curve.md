@@ -2,7 +2,7 @@
 title: "Visualising Classification Performance with ROC and AUC"
 date: 2017-04-26T21:53:56Z
 draft: false
-categories: []
+categories: ["datascience"]
 featured: ""
 featuredpath: ""
 featuredalt: ""

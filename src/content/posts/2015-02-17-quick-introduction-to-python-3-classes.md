@@ -2,7 +2,7 @@
 title: "Quick Introduction to Python 3 Classes"
 date: 2015-02-17T16:05:43Z
 draft: false
-categories: []
+categories: ["python"]
 featured: ""
 featuredpath: ""
 featuredalt: ""

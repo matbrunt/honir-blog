@@ -2,7 +2,7 @@
 title: "Structuring Your Data Science And Engineering Teams"
 date: 2017-07-17T10:42:38Z
 draft: false
-categories: []
+categories: ["leadership"]
 featured: ""
 featuredpath: ""
 featuredalt: ""

@@ -2,7 +2,7 @@
 title: "How Ai Fits Into Your Data Science Team"
 date: 2017-07-28T11:47:35Z
 draft: false
-categories: []
+categories: ["datascience","leadership"]
 featured: ""
 featuredpath: ""
 featuredalt: ""
